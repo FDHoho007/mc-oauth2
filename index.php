@@ -297,7 +297,7 @@ if (isset($_GET["client_id"]) && isset($_GET["response_type"]) && isset($_GET["r
                                     <rect width="24" height="24"></rect>
                                 </g>
                             </svg>
-                            <div>Nach der Autorisierung wirst du außerhalb von Discord weitergeleitet
+                            <div>Nach der Autorisierung wirst du weitergeleitet
                                 zu: <?php echo($state["redirect_uri"]); ?></div>
                         </div>
                     </div>
